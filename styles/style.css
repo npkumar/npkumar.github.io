@@ -24,6 +24,10 @@ img {
     max-width: 100%;
 }
 
+h3 {
+    margin: 0 0 1em 0;
+}
+
 /***********
 * HEADING
 ************/
@@ -122,6 +126,34 @@ footer {
     color: #bdc3c7;
 }
 
+/***********
+* PAGE: ABOUT
+************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+/***********
+* PAGE: CONTACT
+************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    padding: 0 0 0 5px;
+    margin: 0 0 10px;
+}
 /***********
 * COLORS
 ************/
